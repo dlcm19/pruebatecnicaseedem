@@ -1,0 +1,55 @@
+:root{
+    --Cyan: hsl(180, 66%, 49%);
+    --Dark_Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish_Violet: hsl(257, 7%, 63%);
+    --Very_Dark_Blue: hsl(255, 11%, 22%);
+    --Very_Dark_Violet: hsl(260, 8%, 14%);
+    --font_color: hsl(260, 30%, 96%);
+
+}
+.container__sectionUno{
+   
+    margin-top: 50px;
+    display: grid;
+    gap: 9rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    overflow: hidden;  
+} 
+.title__h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sectionUno__title{
+margin-top: 10%;
+}
+.sectionUno__text{
+    color: var(--Grayish_Violet);
+   
+}
+.button_started{
+    text-align: center;
+    color: #fff;
+    background-color: var(--Cyan);
+    padding: 5px 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    width: 140px;
+    cursor: pointer;
+}
+.illustration_working{
+    width: 500px;
+  
+}
+@media (max-width: 510px) {
+    /* .link__menu, .link__login, .link__singUp {
+      display: none;
+    } */
+    .container__sectionUno{
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        overflow: hidden;  
+    }
+  }

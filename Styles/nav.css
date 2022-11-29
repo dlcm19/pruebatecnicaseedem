@@ -1,0 +1,58 @@
+:root{
+    --Cyan: hsl(180, 66%, 49%);
+    --Dark_Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish_Violet: hsl(257, 7%, 63%);
+    --Very_Dark_Blue: hsl(255, 11%, 22%);
+    --Very_Dark_Violet: hsl(260, 8%, 14%);
+    --font_color: hsl(260, 30%, 96%);
+
+}
+body{
+    max-width: 992px;
+    margin: 0 auto; 
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.container__nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+.subContainer__nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.inicio{
+    Font-size: 25px;
+    font-weight:bold;
+}
+.link__menu{
+    line-height: 43px;
+    color: var(--Grayish_Violet);
+}
+
+.container__login{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    line-height: 43px;
+}
+.link__login{
+    color: var(--Grayish_Violet); 
+}
+.link__singUp{
+    color: #fff;
+    background-color: var(--Cyan);
+    border: 20px;
+    padding: 5px 20px;
+    border-radius: 70px;   
+}

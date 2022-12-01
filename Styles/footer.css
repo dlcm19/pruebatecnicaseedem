@@ -1,0 +1,43 @@
+:root{
+    --Cyan: hsl(180, 66%, 49%);
+    --Dark_Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish_Violet: hsl(257, 7%, 63%);
+    --Very_Dark_Blue: hsl(255, 11%, 22%);
+    --Very_Dark_Violet: hsl(260, 8%, 14%);
+    --color_black: rgb(0,0,0);
+
+}
+.container__footer{
+    background-color: var(--color_black);
+
+}
+.subContainer__footer{
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container__footer p{
+    color: #fff;
+}
+.container__footer ul{
+    padding-top: 20px;
+}
+.container__footer ul{
+    color: var(--Grayish_Violet);
+}
+.footer__iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.bi-facebook, .bi-twitter, .bi-pinterest, .bi-instagram{
+    color: #fff;
+}
+

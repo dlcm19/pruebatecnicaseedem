@@ -1,0 +1,33 @@
+:root{
+    --Cyan: hsl(180, 66%, 49%);
+    --Dark_Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish_Violet: hsl(257, 7%, 63%);
+    --Very_Dark_Blue: hsl(255, 11%, 22%);
+    --Very_Dark_Violet: hsl(260, 8%, 14%);
+
+}
+.container__sectionTres{
+    background-image: url(../images/bg-boost-desktop.svg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   flex-direction: column;
+   background-color: var(--Dark_Violet);
+   padding: 0px 0px 50px;
+}
+.sectionTres__text{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sectionTres__button{
+    background-color: var(--Cyan);
+    color: #fff;
+    padding: 7px 50px;
+    border-radius: 60px;
+    cursor: pointer;
+}

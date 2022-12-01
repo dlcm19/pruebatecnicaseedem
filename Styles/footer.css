@@ -25,19 +25,30 @@
 
 .container__footer p{
     color: #fff;
-}
-.container__footer ul{
-    padding-top: 20px;
+    cursor: pointer;
 }
 .container__footer ul{
     color: var(--Grayish_Violet);
+    padding-top: 20px;
+    cursor: pointer;
 }
 .footer__iconos{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    cursor: pointer;
 }
 .bi-facebook, .bi-twitter, .bi-pinterest, .bi-instagram{
     color: #fff;
 }
+@media (max-width: 720px) {
+    .subContainer__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+  }
 

@@ -50,15 +50,12 @@
 
 }
 
-@media (max-width: 510px) {
+@media (max-width: 720px) {
 
-    /* .link__menu, .link__login, .link__singUp {
-      display: none;
-    } */
     .container__sectionUno {
         display: grid;
         justify-content: center;
+        align-items: center;
         gap: 1rem;
-        overflow: hidden;
     }
 }

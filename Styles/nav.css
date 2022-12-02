@@ -8,13 +8,10 @@
     --Very_Dark_Violet: hsl(260, 8%, 14%);
     --font_color: hsl(260, 30%, 96%);
     --color_black: rbg(0, 0, 0);
+    
 
 }
-/* .container__header{
-height: 80px;
-top: 0;
-left: 0;
-} */
+
 
 li{
     list-style: none;
@@ -33,15 +30,11 @@ a{
     margin-top: 100px;
     display: flex;
     margin-top: 30px;
-    gap: 20px;
-    
-    
+    gap: 20px;  
 }
 .subContainer__nav{
     display: flex;
     gap: 20px;
-   
-   
 }
 
 .link__menu{
@@ -74,7 +67,9 @@ a{
     font-size: 30px;
     padding: 0 20px;
     cursor: pointer;
-    margin-left: auto;
+    top: 30px;
+    right:25px;
+    position: absolute;
 }
 @media (max-width: 720px) {
     .nav__button{
@@ -82,9 +77,57 @@ a{
     }
     .subContainer__nav{
         display: none;
+       background-color: var(--Dark_Violet);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 0px 30px;
+        opacity: 0;
     }
-    .container__login{
+    .subContainer__nav a{
+        color:var(--font_color);
+    }
+     .container__login{
         display: none;
-    }
+        background-color: var(--Dark_Violet);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 0px 30px;
+        opacity: 0;
 
+    } 
+    .container__login a{
+        color:var(--font_color);
+    }
+   .container__nav{
+       display: flex;
+      flex-direction: column;
+      
+    } 
+    @keyframes mostrarMenu{
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .subContainer__nav.activado{
+        display: flex;
+        animation: mostrarMenu 2000ms ease-in-out both;
+    }
+    .container__login.activado{
+        display: flex;
+        animation: mostrarMenu 2000ms ease-in-out both;
+    }
+    .logo{
+        margin: 0px 0px 0px 40px;
+    }
+ 
   }

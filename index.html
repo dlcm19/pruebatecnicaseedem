@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="Styles/sectionTres.css">
     <link rel="stylesheet" href="Styles/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <title>Prueba Técnica </title>
+    <title>Prueba Técnica</title>
 </head>
 <body>
   <header class="container__header">
@@ -45,15 +45,18 @@
     </section>
 
     <section class="container__sectionDos">
-        <form class="container__form">
-            <input class="input__form" type="text" placeholder="Shorten a link here...">
-            <button class="btn__form">Shorten it!</button>
-        </form>
+        <form  class="container__form">
+            <input class="input__form" id="entrada" name="entrada" type="text" placeholder="Shorten a link here...">
+            <button class="btn__form" type="submit" onclick="return enviarFormulario()">Shorten it!</button>
+            <div id="error" class="error"></div>
+         </form>
+         
+          
 
     
       <div class="container__text-sectionDos">
         <p class="sectionDos__title">Advanced Statistics</p>
-        <p>Track how your links are performing across the web with 
+        <p class="sectionDos__text">Track how your links are performing across the web with 
             our advanced statistics dashboard.</p>
       </div>
       <div class="container__cart">

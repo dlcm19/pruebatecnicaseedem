@@ -49,13 +49,31 @@
     width: 500px;
 
 }
-
+@media (max-width: 540px){
+    .container__sectionUno{
+        grid-column: column;
+    }
+}
 @media (max-width: 720px) {
 
-    .container__sectionUno {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
+    .sectionUno__title{
+        margin: 0 30px;
+        text-align: center;  
     }
+    .title__p {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .button_started{
+        margin: auto;
+    }
+    .container__sectionUno{
+        gap: 3px;
+        padding: 0px 0px 20px 0px;
+  
+    }
+    /* .container__sectionUno div:nth-child(2){
+        grid-row: 2/1;
+        
+    } */
 }

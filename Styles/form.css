@@ -45,8 +45,17 @@ input::placeholder {
   width: 8rem;
   cursor: pointer;
 }
-@media (max-width:640px) {
+.error{
+  color: red;
+  font-size: larger;
+}
+@media (max-width:720px) {
   .btn__form{
-    height: 50px;
+    height: 40px;
+    width: 100%;
+  }
+  .container__form{
+    margin: 0px 20px;
+    
   }
 }
